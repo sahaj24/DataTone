@@ -2,9 +2,9 @@ import './globals.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Datatone - Fine-Tuned AI for Startups',
-  description: 'Custom AI models that adapt to your business. Professional AI fine-tuning services for startups and small companies.',
-  keywords: 'AI, machine learning, fine-tuning, startups, custom models',
+  title: 'Datatone - AI Fine-Tuning with NVIDIA A100 GPUs',
+  description: 'Professional AI model fine-tuning services powered by NVIDIA A100 GPUs with 40GB HBM2e memory. Specialized solutions for startups and growing companies.',
+  keywords: 'AI fine-tuning, NVIDIA A100, GPU training, machine learning, startups, custom models, A100 GPUs',
 }
 
 export default function RootLayout({

@@ -137,4 +137,4 @@ This website is designed for the domain: **datatone.xyz**
 
 ## Contact
 
-For pricing discussions and custom AI solutions, contact our professional team at hello@datatone.xyz
+For pricing discussions and custom AI solutions, contact our professional team at datatoneservices@gmail.com

@@ -21,7 +21,7 @@ const CTA = () => {
             <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
             </svg>
-            Limited Time Offer
+            NVIDIA A100 Powered
           </div>
 
           {/* Main Heading */}
@@ -38,22 +38,23 @@ const CTA = () => {
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-blue-100 mb-12 max-w-4xl mx-auto leading-relaxed">
-            Contact our professional team for <span className="font-semibold text-white">pricing discussions</span> and discover how we can help transform your startup with custom AI solutions powered by enterprise-grade GPUs.
+            Our team specializes in AI model fine-tuning using <span className="font-semibold text-white">NVIDIA A100 GPUs</span> with 40GB HBM2e memory. 
+            Contact us at datatoneservices@gmail.com to discuss your project requirements and get a customized solution.
           </p>
 
           {/* Stats Row */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 max-w-4xl mx-auto">
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-yellow-300 mb-2">Free</div>
-              <div className="text-blue-100">Initial Consultation</div>
+              <div className="text-3xl md:text-4xl font-bold text-yellow-300 mb-2">A100</div>
+              <div className="text-blue-100">GPU Infrastructure</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-yellow-300 mb-2">48hr</div>
-              <div className="text-blue-100">Response Time</div>
+              <div className="text-3xl md:text-4xl font-bold text-yellow-300 mb-2">312</div>
+              <div className="text-blue-100">TFLOPS Performance</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-yellow-300 mb-2">Custom</div>
-              <div className="text-blue-100">Pricing Plans</div>
+              <div className="text-3xl md:text-4xl font-bold text-yellow-300 mb-2">40GB</div>
+              <div className="text-blue-100">HBM2e Memory</div>
             </div>
           </div>
 
@@ -89,7 +90,7 @@ const CTA = () => {
                 </div>
                 <div>
                   <div className="text-white font-semibold">Email Us</div>
-                  <div className="text-blue-100">hello@datatone.xyz</div>
+                  <div className="text-blue-100">datatoneservices@gmail.com</div>
                 </div>
               </div>
               <div className="flex items-center">

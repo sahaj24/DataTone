@@ -6,8 +6,8 @@ const Services = () => {
   const services = [
     {
       title: "Model Fine-Tuning",
-      description: "Customize existing AI models to perform optimally for your specific use case and data with our advanced GPU infrastructure.",
-      features: ["Custom Training", "Performance Optimization", "Domain Adaptation", "Real-time Monitoring"],
+      description: "Optimize pre-trained models for your specific datasets and use cases using NVIDIA A100 GPUs for faster convergence and better performance.",
+      features: ["Custom Training Pipelines", "Hyperparameter Optimization", "Domain-Specific Adaptation", "Performance Benchmarking"],
       icon: (
         <div className="relative">
           <div className="absolute inset-0 bg-gradient-to-r from-datatone-blue to-datatone-purple rounded-2xl blur opacity-75"></div>
@@ -20,9 +20,9 @@ const Services = () => {
       )
     },
     {
-      title: "Custom AI Solutions",
-      description: "Develop tailored AI systems from scratch that perfectly align with your business objectives and technical requirements.",
-      features: ["Bespoke Architecture", "API Integration", "Scalable Design", "Continuous Support"],
+      title: "Custom AI Development",
+      description: "Build AI solutions from the ground up, tailored to your business requirements with our A100-powered infrastructure for rapid prototyping and training.",
+      features: ["Requirements Analysis", "Architecture Design", "Model Development", "Integration Support"],
       icon: (
         <div className="relative">
           <div className="absolute inset-0 bg-gradient-to-r from-datatone-purple to-pink-500 rounded-2xl blur opacity-75"></div>
@@ -35,9 +35,9 @@ const Services = () => {
       )
     },
     {
-      title: "Scalable Deployment",
-      description: "Deploy your fine-tuned models with our robust cloud infrastructure that automatically scales with your business growth.",
-      features: ["Auto-Scaling", "Load Balancing", "Global CDN", "99.9% Uptime"],
+      title: "Training Infrastructure",
+      description: "Access our NVIDIA A100 GPU clusters for your training workloads with flexible scheduling and monitoring tools for efficient resource utilization.",
+      features: ["GPU Cluster Access", "Training Monitoring", "Resource Scheduling", "Cost Optimization"],
       icon: (
         <div className="relative">
           <div className="absolute inset-0 bg-gradient-to-r from-datatone-green to-blue-500 rounded-2xl blur opacity-75"></div>
@@ -68,11 +68,13 @@ const Services = () => {
           </div>
 
           <h2 className="text-4xl md:text-5xl font-bold text-datatone-gray-900 mb-6 leading-tight">
-            Comprehensive AI Solutions
+            AI Services Powered by
+            <br />
+            <span className="gradient-text">NVIDIA A100 GPUs</span>
           </h2>
           <p className="text-xl text-datatone-gray-600 max-w-3xl mx-auto leading-relaxed">
-            From initial consultation to deployment and beyond, we provide end-to-end AI services 
-            designed to give your startup the competitive edge it needs to succeed.
+            From model fine-tuning to custom development, we provide specialized AI services 
+            backed by enterprise-grade A100 infrastructure for faster training and better results.
           </p>
         </div>
 
@@ -124,16 +126,17 @@ const Services = () => {
 
         {/* Bottom CTA */}
         <div className="text-center bg-gradient-to-r from-datatone-blue to-datatone-purple p-12 rounded-3xl text-white animate-fade-in-up">
-          <h3 className="text-3xl font-bold mb-4">Ready to Transform Your Business?</h3>
+          <h3 className="text-3xl font-bold mb-4">Ready to Leverage A100 Power?</h3>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Join hundreds of startups that have already leveraged our AI expertise to accelerate their growth.
+            Get started with professional AI fine-tuning services backed by NVIDIA A100 GPUs. 
+            Contact us to discuss your specific requirements and timeline.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-white text-datatone-blue px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-colors transform hover:scale-105">
-              Start Your Project
+              Discuss Your Project
             </button>
             <button className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-datatone-blue transition-all transform hover:scale-105">
-              Schedule Call
+              Technical Consultation
             </button>
           </div>
         </div>

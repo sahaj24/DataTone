@@ -20,8 +20,8 @@ const Footer = () => {
               <span className="text-white">tone</span>
             </h3>
             <p className="text-datatone-gray-400 mb-6 max-w-md leading-relaxed">
-              Empowering startups with cutting-edge AI solutions. Our professional team leverages 
-              enterprise-grade GPU infrastructure to deliver custom models that scale with your business.
+              Empowering startups with cutting-edge AI solutions. Our team leverages 
+              NVIDIA A100 GPU infrastructure to deliver custom models that scale with your business needs.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 bg-datatone-gray-800 rounded-full flex items-center justify-center hover:bg-datatone-blue transition-colors">
@@ -70,7 +70,7 @@ const Footer = () => {
                 <svg className="w-5 h-5 mr-3 text-datatone-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                hello@datatone.xyz
+                datatoneservices@gmail.com
               </li>
               <li className="flex items-center text-datatone-gray-400">
                 <svg className="w-5 h-5 mr-3 text-datatone-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -82,7 +82,7 @@ const Footer = () => {
                 <svg className="w-5 h-5 mr-3 text-datatone-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
                 </svg>
-                Enterprise GPUs
+                NVIDIA A100 GPUs
               </li>
             </ul>
           </div>

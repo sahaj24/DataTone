@@ -5,24 +5,24 @@ import React from 'react'
 const About = () => {
   const features = [
     {
-      icon: "⚡",
-      title: "Lightning Fast",
-      description: "Enterprise-grade GPU infrastructure for rapid model training"
+      icon: "🚀",
+      title: "NVIDIA A100 Power",
+      description: "40GB HBM2e memory and 312 TFLOPS for accelerated training"
     },
     {
       icon: "🎯",
-      title: "Precision Tuning",
-      description: "Custom models tailored to your specific business requirements"
+      title: "Custom Fine-Tuning",
+      description: "Specialized model optimization for your specific use cases"
     },
     {
       icon: "🔒",
-      title: "Secure & Private",
-      description: "Your data stays private with enterprise security standards"
+      title: "Secure Infrastructure",
+      description: "Your data remains private with enterprise security protocols"
     },
     {
       icon: "📈",
       title: "Scalable Solutions",
-      description: "Infrastructure that grows with your business needs"
+      description: "From prototype to production with flexible GPU allocation"
     }
   ]
 
@@ -48,16 +48,17 @@ const About = () => {
             </h2>
 
             <p className="text-lg text-datatone-gray-600 mb-8 leading-relaxed">
-              At Datatone, we specialize in providing cutting-edge AI fine-tuning services 
-              specifically designed for startups and small companies. Our team of experienced 
-              professionals leverages <span className="font-semibold text-datatone-blue">powerful GPU infrastructure</span> to create 
-              custom AI models that adapt perfectly to your unique business needs.
+              At Datatone, we specialize in AI model fine-tuning for startups and growing companies. 
+              Our infrastructure is built around <span className="font-semibold text-datatone-blue">NVIDIA A100 GPUs</span> with 40GB HBM2e memory, 
+              providing the computational power needed for efficient model training and optimization.
             </p>
 
             <p className="text-lg text-datatone-gray-600 mb-10 leading-relaxed">
-              We understand that every startup has distinct challenges and requirements, which is why we offer 
-              personalized solutions that scale with your growth. <span className="font-semibold text-datatone-purple">Contact us for pricing discussions</span> and 
-              discover how our professional team can help you build your AI advantage.
+              We focus on practical AI implementations that deliver measurable business value. 
+              Whether you need to fine-tune existing models or develop custom solutions, 
+              our team works with you to create AI systems that integrate seamlessly with your workflow. 
+              <span className="font-semibold text-datatone-purple">Contact us to discuss your specific requirements</span> and 
+              explore how we can help accelerate your AI initiatives.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -96,18 +97,18 @@ const About = () => {
             <div className="mt-8 p-6 bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl border border-blue-100">
               <div className="flex items-center justify-center space-x-8">
                 <div className="text-center">
-                  <div className="text-2xl font-bold gradient-text">500+</div>
-                  <div className="text-sm text-datatone-gray-600">GPU Hours/Day</div>
+                  <div className="text-2xl font-bold gradient-text">A100</div>
+                  <div className="text-sm text-datatone-gray-600">NVIDIA GPUs</div>
                 </div>
                 <div className="w-px h-12 bg-gradient-to-b from-datatone-blue to-datatone-purple opacity-30"></div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold gradient-text">5TB</div>
-                  <div className="text-sm text-datatone-gray-600">Data Processed</div>
+                  <div className="text-2xl font-bold gradient-text">40GB</div>
+                  <div className="text-sm text-datatone-gray-600">Memory/GPU</div>
                 </div>
                 <div className="w-px h-12 bg-gradient-to-b from-datatone-blue to-datatone-purple opacity-30"></div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold gradient-text">24/7</div>
-                  <div className="text-sm text-datatone-gray-600">Monitoring</div>
+                  <div className="text-2xl font-bold gradient-text">312</div>
+                  <div className="text-sm text-datatone-gray-600">TFLOPS</div>
                 </div>
               </div>
             </div>

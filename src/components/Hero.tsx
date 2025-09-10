@@ -18,7 +18,7 @@ const Hero = () => {
             <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
             </svg>
-            Powered by Enterprise-Grade GPUs
+            Powered by NVIDIA A100 GPUs
           </div>
 
           {/* Main Heading */}
@@ -43,9 +43,9 @@ const Hero = () => {
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-datatone-gray-600 mb-12 max-w-4xl mx-auto leading-relaxed font-light">
-            Custom models that adapt to your business. Our professional team with{' '}
-            <span className="font-semibold text-datatone-blue">powerful GPUs</span> delivers 
-            tailored AI solutions that scale with your growth.
+            Custom models that adapt to your business. Our team specializes in fine-tuning AI models using{' '}
+            <span className="font-semibold text-datatone-blue">NVIDIA A100 GPUs</span> to deliver 
+            high-performance solutions for startups ready to scale.
           </p>
 
           {/* CTA Buttons */}
@@ -68,12 +68,12 @@ const Hero = () => {
           {/* Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="text-center group">
-              <div className="text-3xl md:text-4xl font-bold gradient-text mb-2">50+</div>
-              <div className="text-datatone-gray-600 font-medium">Models Deployed</div>
+              <div className="text-3xl md:text-4xl font-bold gradient-text mb-2">A100</div>
+              <div className="text-datatone-gray-600 font-medium">NVIDIA GPUs</div>
             </div>
             <div className="text-center group">
-              <div className="text-3xl md:text-4xl font-bold gradient-text mb-2">99.9%</div>
-              <div className="text-datatone-gray-600 font-medium">Uptime SLA</div>
+              <div className="text-3xl md:text-4xl font-bold gradient-text mb-2">40GB</div>
+              <div className="text-datatone-gray-600 font-medium">HBM2e Memory</div>
             </div>
             <div className="text-center group">
               <div className="text-3xl md:text-4xl font-bold gradient-text mb-2">24/7</div>
